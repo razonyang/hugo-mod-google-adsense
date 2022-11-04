@@ -1,0 +1,8 @@
+baseURL = '/'
+title = 'Hugo Google Adsense Module'
+
+[[module.imports]]
+path = "github.com/razonyang/hugo-mod-google-adsense"
+
+[params.googleAdsense]
+client = "ca-pub-7827859788508375"

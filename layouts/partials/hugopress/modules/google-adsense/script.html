@@ -1,0 +1,4 @@
+{{- with .Site.Params.googleAdsense }}
+{{- if not .client }}{{ warnf "[Google Adsense] client is required." }}{{ end }}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ .client }}" crossorigin="anonymous"></script>
+{{- end -}}
